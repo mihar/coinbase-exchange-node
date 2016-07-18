@@ -1,3 +1,9 @@
+# DEPRECATED
+
+This package has been deprecated and will receive any further updates.
+
+Please use the new official client [gdax-node](https://github.com/coinbase/gdax-node).
+
 # Coinbase Exchange
 The official Node.js library for the [Coinbase Exchange
 API](https://docs.exchange.coinbase.com/).
@@ -235,8 +241,8 @@ authedClient.withdraw(withdrawParamsBTC, callback);
 ```
 
 ### Websocket client
-The `WebsocketClient` allows you to connect and listen to the 
-[exchange websocket messages](https://docs.exchange.coinbase.com/#messages). 
+The `WebsocketClient` allows you to connect and listen to the
+[exchange websocket messages](https://docs.exchange.coinbase.com/#messages).
 ```javascript
 var CoinbaseExchange = require('coinbase-exchange');
 var websocket = new CoinbaseExchange.WebsocketClient();
@@ -247,7 +253,7 @@ The following events can be emitted from the `WebsocketClient`:
 * `message`
 * `close`
 
-### Orderbook 
+### Orderbook
 `Orderbook` is a data structure that can be used to store a local copy of the orderbook.
 ```javascript
 var CoinbaseExchange = require('coinbase-exchange');
